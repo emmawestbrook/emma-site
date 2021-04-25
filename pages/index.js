@@ -18,9 +18,12 @@ export default function Index({ allPosts }) {
           <title>Emma Westbrook</title>
         </Head>
         <Container>
-          <Intro />
-          <Homepage />
-          {heroPost && (
+          <div className="mt-96">
+            <Intro />
+
+          </div>
+          {/* <Homepage /> */}
+          {/* {heroPost && (
             <HeroPost
               title={heroPost.title}
               coverImage={heroPost.coverImage}
@@ -29,8 +32,8 @@ export default function Index({ allPosts }) {
               slug={heroPost.slug}
               excerpt={heroPost.excerpt}
             />
-          )}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+          )} */}
+          {/* {morePosts.length > 0 && <MoreStories posts={morePosts} />} */}
         </Container>
       </Layout>
     </>
