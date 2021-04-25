@@ -32,9 +32,15 @@ export default function Meta() {
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+
+      <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Syne+Mono&family=Syne+Tactile&family=Syne:wght@400;800&display=swap" rel="stylesheet" />
       <meta
         name="description"
-        content={`A statically generated blog example using Next.js and ${CMS_NAME}.`}
+        content={`Emma Westbrook`}
       />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
     </Head>

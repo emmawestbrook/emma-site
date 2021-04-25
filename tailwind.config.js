@@ -2,6 +2,11 @@ module.exports = {
   purge: ['./components/**/*.js', './pages/**/*.js'],
   theme: {
     extend: {
+      fontFamily: {
+        syne: ['Syne', 'sans-serif'],
+        mono: ['Syne Mono', 'monospace'],
+        tactile: ['Syne Tactile', 'cursive']
+      },
       colors: {
         'accent-1': '#FAFAFA',
         'accent-2': '#EAEAEA',
