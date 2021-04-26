@@ -11,7 +11,7 @@ module.exports = {
         'accent-1': '#FAFAFA',
         'accent-2': '#EAEAEA',
         'accent-7': '#333',
-        success: '#0070f3',
+        success: '#c65227',
         cyan: '#79FFE1',
       },
       spacing: {
