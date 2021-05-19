@@ -14,15 +14,7 @@ export default function Intro() {
         >
           developer
         </a>{' '}
-        and
-        {' '}
-        <a
-          href="https://instagram.com/bog_hag"
-          className="underline hover:text-success font-mono duration-200 transition-colors"
-        >
-          artist
-        </a>{' '}
-         in minneapolis.
+        and artist in chicago.
       </h4>
       <a
         href="/"
