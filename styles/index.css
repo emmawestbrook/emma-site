@@ -1,4 +1,7 @@
 @tailwind base;
+body {
+    background-color: peachpuff;
+}
 
 /* Write your own custom base styles here */
 

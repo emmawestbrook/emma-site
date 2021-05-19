@@ -8,11 +8,9 @@ module.exports = {
         tactile: ['Syne Tactile', 'cursive']
       },
       colors: {
-        'accent-1': '#FAFAFA',
-        'accent-2': '#EAEAEA',
-        'accent-7': '#333',
-        success: '#c65227',
-        cyan: '#79FFE1',
+        peachpuff: '#ffdab9',
+        orange: '#c65227',
+        blue: '#26547C'
       },
       spacing: {
         28: '7rem',
@@ -33,6 +31,18 @@ module.exports = {
         sm: '0 5px 10px rgba(0, 0, 0, 0.12)',
         md: '0 8px 30px rgba(0, 0, 0, 0.12)',
       },
+      minHeight: {
+        '0': '0',
+        '1/4': '25%',
+        '1/2': '50%',
+        '3/4': '75%',
+        'full': '100%',
+      }
     },
+  },
+  variants: {
+    borderStyle: ['hover'],
+    saturate: ['hover'],
+    grayscale: ['hover']
   },
 }
