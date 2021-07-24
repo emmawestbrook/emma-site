@@ -17,7 +17,7 @@ export default function Intro() {
         and artist in chicago.
       </h4>
       <a
-        href="/"
+        href="/about"
         className="mt-8 md:mt-0 pl-6 lg:pl-16"
       >
         <Image className="" src='/sun.png' width='100px' height='100px' />
