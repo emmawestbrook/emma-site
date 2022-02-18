@@ -12,7 +12,7 @@ export default function Intro() {
           href="https://github.com/emmawestbrook"
           className="underline hover:text-orange font-mono duration-400 transition-colors"
         >
-          developer
+          software engineer
         </a>{' '}
         and artist in chicago.
       </h4>
